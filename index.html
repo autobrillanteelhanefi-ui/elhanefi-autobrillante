@@ -1,0 +1,343 @@
+[18:45, 18/1/2026] Moi: <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELHANEFI AUTOBRILLANTE - Limpieza de Vehículos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #1a237e;
+            --secondary: #3949ab;
+            --success: #2e7d32;
+            --light: #f5f5f5;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: …
+[19:02, 18/1/2026] 🐱: https://www.qr-code-generator.com/?hl=fr-FR
+[6:55, 19/1/2026] Moi: <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELHANEFI AUTOBRILLANTE - Limpieza de Vehículos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #1a237e;
+            --secondary: #3949ab;
+            --success: #2e7d32;
+            --light: #f5f5f5;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(to right, var(--primary), #0d47a1);
+            color: white;
+            padding: 25px 0;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.2rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            font-style: italic;
+            color: #bbdefb;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: var(--primary);
+            margin-bottom: 25px;
+            font-size: 1.8rem;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: var(--secondary);
+        }
+
+        .time-note {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 12px;
+            margin: 15px 0;
+            color: #856404;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+
+        .time-note i {
+            color: #f39c12;
+            margin-right: 8px;
+        }
+
+        .btn-submit {
+            width: 100%;
+            background: linear-gradient(to right, var(--success), #1b5e20);
+            color: white;
+            padding: 15px;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            max-width: 400px;
+        }
+
+        .modal-content h2 {
+            color: var(--success);
+            margin-bottom: 15px;
+        }
+
+        .close-modal {
+            background: var(--secondary);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        /* Estilos para el calendario */
+        input[type="date"] {
+            position: relative;
+        }
+
+        input[type="date"]::-webkit-calendar-picker-indicator {
+            cursor: pointer;
+            filter: invert(0.8) brightness(0.9);
+        }
+
+        /* Responsive para móviles */
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            .header p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <h1>ELHANEFI AUTOBRILLANTE</h1>
+    <p>Tu satisfacción es nuestro mayor objetivo</p>
+</header>
+
+<div class="container">
+    <h2><i class="fas fa-car"></i> Solicitar Limpieza</h2>
+    <form id="booking-form">
+        <div class="form-group">
+            <label for="name">Nombre *</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Teléfono *</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <div class="form-group">
+            <label for="car-plate">Matrícula del coche *</label>
+            <input type="text" id="car-plate" name="car-plate" placeholder="Ej: 1234ABC" required>
+        </div>
+
+        <div class="form-group">
+            <label for="service">Tipo de limpieza *</label>
+            <select id="service" name="service" required>
+                <option value="">Elige una opción...</option>
+                <option value="interior">1 - Limpieza interior</option>
+                <option value="interior-tapiceria">2 - Limpieza interior con tapicería</option>
+                <option value="interior-exterior">3 - Limpieza interior y exterior</option>
+                <option value="interior-exterior-tapiceria">4 - Limpieza interior y exterior con tapicería</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="appointment-date">Fecha *</label>
+            <input type="date" id="appointment-date" name="appointment-date" required>
+        </div>
+
+        <div class="form-group">
+            <label for="pickup-time">Hora de recogida (entrega del coche) *</label>
+            <select id="pickup-time" name="pickup-time" required>
+                <option value="">Selecciona hora...</option>
+                <option value="07:00">07:00 AM</option>
+                <option value="08:00">08:00 AM</option>
+                <option value="09:00">09:00 AM</option>
+                <option value="10:00">10:00 AM</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="delivery-time">Hora de entrega (devolución del coche) *</label>
+            <select id="delivery-time" name="delivery-time" required>
+                <option value="">Selecciona hora...</option>
+                <option value="13:00">01:00 PM (13:00)</option>
+                <option value="14:00">02:00 PM (14:00)</option>
+                <option value="15:00">03:00 PM (15:00)</option>
+                <option value="16:00">04:00 PM (16:00)</option>
+            </select>
+        </div>
+
+        <div class="time-note">
+            <i class="fas fa-info-circle"></i>
+            <strong>Horario:</strong> Recogida de 7:00 AM - 10:00 AM | Entrega de 1:00 PM - 4:00 PM
+        </div>
+
+        <button type="submit" class="btn-submit">
+            <i class="fas fa-calendar-check"></i> Enviar Cita
+        </button>
+    </form>
+</div>
+
+<!-- Modal de confirmación -->
+<div id="confirmation-modal" class="modal">
+    <div class="modal-content">
+        <i class="fas fa-check-circle" style="font-size: 3rem; color: #2e7d32;"></i>
+        <h2>¡Cita Confirmada!</h2>
+        <p>Te contactaremos para confirmar tu cita.</p>
+        <button class="close-modal" onclick="closeModal()">Cerrar</button>
+    </div>
+</div>
+
+<script>
+    // Establecer fecha mínima (hoy) y máxima (30 días)
+    const today = new Date();
+    const maxDate = new Date();
+    maxDate.setDate(today.getDate() + 30);
+    
+    const dateInput = document.getElementById('appointment-date');
+    dateInput.min = today.toISOString().split('T')[0];
+    dateInput.max = maxDate.toISOString().split('T')[0];
+
+    document.getElementById('booking-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const name = document.getElementById('name').value;
+        const phone = document.getElementById('phone').value;
+        const plate = document.getElementById('car-plate').value;
+        const service = document.getElementById('service').value;
+        const date = document.getElementById('appointment-date').value;
+        const pickupTime = document.getElementById('pickup-time').value;
+        const deliveryTime = document.getElementById('delivery-time').value;
+
+        const serviceText = {
+            interior: 'Limpieza interior',
+            'interior-tapiceria': 'Limpieza interior con tapicería',
+            'interior-exterior': 'Limpieza interior y exterior',
+            'interior-exterior-tapiceria': 'Limpieza interior y exterior con tapicería'
+        };
+
+        const message = `
+🧼 NUEVA CITA DE LIMPIEZA
+👤 Nombre: ${name}
+📞 Teléfono: ${phone}
+🚗 Matrícula: ${plate}
+🧽 Servicio: ${serviceText[service]}
+📅 Fecha: ${date}
+🕐 Hora de recogida: ${pickupTime}
+🕓 Hora de entrega: ${deliveryTime}
+        `.trim();
+
+        const whatsappURL = https://wa.me/34638806192?text=${encodeURIComponent(message)};
+        window.open(whatsappURL, '_blank');
+
+        // Mostrar modal de confirmación
+        document.getElementById('confirmation-modal').style.display = 'flex';
+        this.reset();
+    });
+
+    function closeModal() {
+        document.getElementById('confirmation-modal').style.display = 'none';
+    }
+</script>
+
+</body>
+</html>
